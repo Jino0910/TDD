@@ -8,11 +8,13 @@
 import Foundation
 
 class Dollar {
-    var amount: Int = 10
+    var amount: Int
     
-    init(_ multiplier: Int) {
+    init(_ amount: Int) {
+        self.amount = amount
     }
     
-    func times(_ amount: Int) {
+    func times(_ multiplier: Int) {
+        amount *= multiplier
     }
 }
