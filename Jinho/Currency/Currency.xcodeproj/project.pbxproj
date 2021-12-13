@@ -16,6 +16,7 @@
 		5F574E75276753F700ED5F0F /* CurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F574E74276753F700ED5F0F /* CurrencyTests.swift */; };
 		5F574E7F276753F700ED5F0F /* CurrencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F574E7E276753F700ED5F0F /* CurrencyUITests.swift */; };
 		5F574E81276753F700ED5F0F /* CurrencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F574E80276753F700ED5F0F /* CurrencyUITestsLaunchTests.swift */; };
+		5F574E90276757CA00ED5F0F /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F574E8F276757CA00ED5F0F /* Dollar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5F574E7A276753F700ED5F0F /* CurrencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F574E7E276753F700ED5F0F /* CurrencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyUITests.swift; sourceTree = "<group>"; };
 		5F574E80276753F700ED5F0F /* CurrencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F574E8F276757CA00ED5F0F /* Dollar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				5F574E5D276753F700ED5F0F /* AppDelegate.swift */,
 				5F574E5F276753F700ED5F0F /* SceneDelegate.swift */,
 				5F574E61276753F700ED5F0F /* ViewController.swift */,
+				5F574E8F276757CA00ED5F0F /* Dollar.swift */,
 				5F574E63276753F700ED5F0F /* Main.storyboard */,
 				5F574E66276753F700ED5F0F /* Assets.xcassets */,
 				5F574E68276753F700ED5F0F /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F574E62276753F700ED5F0F /* ViewController.swift in Sources */,
+				5F574E90276757CA00ED5F0F /* Dollar.swift in Sources */,
 				5F574E5E276753F700ED5F0F /* AppDelegate.swift in Sources */,
 				5F574E60276753F700ED5F0F /* SceneDelegate.swift in Sources */,
 			);
