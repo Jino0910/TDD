@@ -1,5 +1,7 @@
 const sum = require('./index');
 
-test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3);
+test('testMultiplication', () => {
+    const dollarFive = new Dollar(5);
+    dollarFive.times(2);
+    expect(10).toEqual(dollarFive.amount);
 });
