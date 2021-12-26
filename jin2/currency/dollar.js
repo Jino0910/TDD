@@ -1,18 +1,18 @@
-class Dollar {
+const Money = require('./money');
 
-    #amount;
+class Dollar extends Money {
 
-    constructor(amount) {
-        this.#amount = amount;
+    constructor(_amount) {
+        super(_amount);
     }
 
     times(multiplier) {
-        return new Dollar(this.#amount * multiplier);
+        return new Dollar(this._amount * multiplier);
     }
 
     isSame(obj) {
-        return this.#amount === obj.#amount;
+        return this._amount === obj._amount;
     }
 }
-    ``
+
 module.exports = Dollar;
