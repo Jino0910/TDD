@@ -14,5 +14,5 @@ class Dollar {
         return this.#amount === obj.#amount;
     }
 }
-
+    ``
 module.exports = Dollar;
