@@ -9,10 +9,6 @@ class Dollar extends Money {
     times(multiplier) {
         return new Dollar(this._amount * multiplier);
     }
-
-    isSame(obj) {
-        return this._amount === obj._amount;
-    }
 }
 
 module.exports = Dollar;

@@ -6,6 +6,9 @@ class Money {
         this._amount = amount;
     }
 
+    isSame(money) {
+        return this._amount === money._amount;
+    }
 }
 
 module.exports = Money;
