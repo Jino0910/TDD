@@ -7,3 +7,8 @@ test('testMultiplication', () => {
     product = dollarFive.times(3);
     expect(15).toEqual(product.amount);
 });
+
+test('testEquality', () => {
+    expect(new Dollar(5).isSame(new Dollar(5))).toBe(true);
+    expect(new Dollar(5).isSame(new Dollar(6))).toBe(false);
+});
