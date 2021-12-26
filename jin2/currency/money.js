@@ -7,8 +7,10 @@ class Money {
     }
 
     isSame(money) {
-        return this._amount === money._amount;
+        return this._amount === money._amount && this.constructor.name === money.constructor.name;
     }
+
+
 }
 
 module.exports = Money;

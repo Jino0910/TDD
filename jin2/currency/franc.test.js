@@ -7,8 +7,3 @@ test('testFrancMultiplication', () => {
     product = francFive.times(3);
     expect(new Franc(15)).toEqual(product);
 });
-
-test('testEquality', () => {
-    expect(new Franc(5).isSame(new Franc(5))).toBe(true);
-    expect(new Franc(5).isSame(new Franc(6))).toBe(false);
-});
