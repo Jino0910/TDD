@@ -1,4 +1,4 @@
-const Franc = require('./franc');
+import Franc from "./franc";
 
 test('testFrancMultiplication', () => {
     const francFive = new Franc(5);

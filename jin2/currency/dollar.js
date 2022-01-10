@@ -1,6 +1,6 @@
-const Money = require('./money');
+import Money from "./money"
 
-class Dollar extends Money {
+export default class Dollar extends Money {
 
     constructor(_amount) {
         super(_amount);
@@ -10,5 +10,3 @@ class Dollar extends Money {
         return new Dollar(this._amount * multiplier);
     }
 }
-
-module.exports = Dollar;

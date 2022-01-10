@@ -1,4 +1,4 @@
-class Money {
+export default class Money{
 
     _amount;
 
@@ -12,5 +12,3 @@ class Money {
 
 
 }
-
-module.exports = Money;

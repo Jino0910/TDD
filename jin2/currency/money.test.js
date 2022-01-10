@@ -1,5 +1,5 @@
-const Dollar = require('./dollar');
-const Franc = require("./franc");
+import Dollar from "./dollar";
+import Franc from "./franc";
 
 test('testEquality', () => {
     expect(new Dollar(5).isSame(new Dollar(5))).toBe(true);

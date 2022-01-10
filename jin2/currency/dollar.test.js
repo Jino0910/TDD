@@ -1,4 +1,4 @@
-const Dollar = require('./dollar');
+import Dollar from "./dollar";
 
 test('testMultiplication', () => {
     const dollarFive = new Dollar(5);
