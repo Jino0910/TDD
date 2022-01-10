@@ -2,8 +2,6 @@ import Franc from "./franc";
 
 test('testFrancMultiplication', () => {
     const francFive = new Franc(5);
-    let product = francFive.times(2);
-    expect(new Franc(10)).toEqual(product);
-    product = francFive.times(3);
-    expect(new Franc(15)).toEqual(product);
+    expect(new Franc(10)).toEqual(francFive.times(2));
+    expect(new Franc(15)).toEqual(francFive.times(3));
 });

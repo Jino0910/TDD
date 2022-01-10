@@ -10,5 +10,12 @@ export default class Money{
         return this._amount === money._amount && this.constructor.name === money.constructor.name;
     }
 
+    static dollar(amount) {
+        return new Dollar(amount);
+    }
 
+    // abstract
+    times() {
+        throw new Error('You have to implement the method times!');
+    }
 }
