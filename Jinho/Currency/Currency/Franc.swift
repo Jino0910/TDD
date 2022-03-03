@@ -1,13 +1,13 @@
 //
-//  Dollar.swift
+//  Franc.swift
 //  Currency
 //
-//  Created by jinho on 2021/12/13.
+//  Created by jinho on 2021/12/26.
 //
 
 import Foundation
 
-class Dollar: Money {
+class Franc: Money {
     
     override init(_ amount: Int,
                   _ currency: String) {
@@ -15,6 +15,6 @@ class Dollar: Money {
     }
     
     override func times(_ multiplier: Int) -> Money {
-        Dollar(amount * multiplier, currency)
+        Franc(amount * multiplier, currency)
     }
 }
